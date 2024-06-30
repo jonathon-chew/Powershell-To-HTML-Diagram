@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Script Logic Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            //display:flex;
+            //align-items:center;
+            justify-content:center;
+        }
+        #indent-top { margin-top: 50px }
+        .indent-0 { margin-left: 0; }
+        .indent-1 { margin-left: 20px; }
+        .indent-2 { margin-left: 40px; }
+        .indent-3 { margin-left: 60px; }
+        .branch {
+            //display: inline-block;
+            margin-right: 20px;
+            padding: 5px;
+            border: 1px solid #000;
+        }  
+    </style>
+</head>
+<body><div id='indent-top' class='branch indent-0'><strong>for ($i = 0; $i -lt $lines.Length; $i++)</strong></div>
+<div id='indent-top' class='branch indent-1'><strong>if ($line -match '^if\s*\((.+)\)')</strong></div>
+<div id='indent-top' class='branch indent-0'><strong>if ($indent -gt 0)</strong></div>
+<div id='indent-top' class='branch indent-0'><strong>if ($node.Type -eq 'if')</strong></div>
+</body>
+</html>
