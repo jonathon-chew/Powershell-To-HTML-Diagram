@@ -13,6 +13,7 @@ Change the type of box based on the type of statement
     If to be a diamond
     Functions to be boxes
     Loops to have a start / end / next
-All types of logic to be captureed
+All types of logic to be captured - currently only for and if working
 All custom functions calls to be added
     Optional Parameter for all function calls, custom function calls only
+Variables to be captured?
